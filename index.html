@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/fight.css"/>
+	</head>
+	<body>
+		<div id="outer">
+			<!-- 创建一个ul，用于放置图片 -->
+			<ul id="imgList">
+				<li><a href="javascript:;"><img src="img/1.jpg"/></a></li>
+				<li><a href="javascript:;"><img src="img/2.jpg"/></a></li>
+				<li><a href="javascript:;"><img src="img/3.jpg"/></a></li>
+				<li><a href="javascript:;"><img src="img/4.jpg"/></a></li>
+				<li><a href="javascript:;"><img src="img/5.jpg"/></a></li>
+				<li><a href="javascript:;"><img src="img/1.jpg"/></a></li>
+			</ul>
+			<!-- 创建两个按钮，用于左右切换图片 -->
+			<button id="sideButtonL" style="left: 10px;"><</button>
+			<button id="sideButtonR" style="right: 10px;">></button>
+			<!--创建导航按钮-->
+			<div id="navDiv">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+			</div>
+			
+		</div>
+	</body>
+</html>
+	<!--页面图片自动循环，导航按钮样式，侧边按钮点击事件-->
+	<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+	<!--侧边按钮透明度变化，添加计时器增加用户体验-->
+	<script src="js/sideButton.js" type="text/javascript" charset="utf-8"></script>
+	<!--轮播图自动循环计时器-->
+	<script type="text/javascript" src="js/timer.js"></script>
+		
